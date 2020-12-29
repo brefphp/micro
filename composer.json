@@ -1,0 +1,22 @@
+{
+    "name": "bref/micro",
+    "type": "library",
+    "description": "Bref micro framework",
+    "autoload": {
+        "psr-4": {
+            "Bref\\Micro\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "ext-json": "*",
+        "bref/bref": "^1.0",
+        "psr/container": "^1.0",
+        "psr/http-message": "^1.0",
+        "psr/http-server-handler": "^1.0",
+        "psr/http-server-middleware": "^1.0"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^4.0"
+    }
+}
