@@ -1,7 +1,9 @@
 {
     "name": "bref/micro",
+    "license": "MIT",
     "type": "library",
-    "description": "Bref micro framework",
+    "description": "Serverless micro framework",
+    "keywords": ["bref", "serverless", "micro-framework", "aws lambda", "faas"],
     "autoload": {
         "psr-4": {
             "Bref\\Micro\\": "src"
